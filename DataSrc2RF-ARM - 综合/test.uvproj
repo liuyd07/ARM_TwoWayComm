@@ -427,6 +427,16 @@
               <FileType>1</FileType>
               <FilePath>.\Source\rfcomm.c</FilePath>
             </File>
+            <File>
+              <FileName>CPESchipdef.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\CPESchipdef.c</FilePath>
+            </File>
+            <File>
+              <FileName>dscomm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dscomm.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

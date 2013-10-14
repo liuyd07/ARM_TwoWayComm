@@ -32,6 +32,11 @@
 #define DataSrcPort  							USART2
 #define GPIO_Remap_DataSrcPort    GPIO_Remap_USART2
 
+/****************节点外设参数定义************/
+#define NODE_NUM									1  //每个节点号均独立，sink节点号为0
+#define	AMMETER_ADDR              {0x04, 0x00, 0x00, 0x00, 0x00, 0x00}
+#define AMMETER_NUM								1
+
 /**************系统操作********************/
 #define LED1_ON                   GPIO_SetBits(GPIOA, LED1_PIN) //LED Test1 点亮
 #define LED1_OFF 			            GPIO_ResetBits(GPIOA, LED1_PIN) // LED Test1 灭
@@ -45,6 +50,10 @@
 void RCC_Configuration(void);
 void GPIO_Configuration(void);
 void NVIC_Configuration(void);
+
+void getNodeInfo(void);
+
+void Delay(vu32 nCount);
 
 #endif
 

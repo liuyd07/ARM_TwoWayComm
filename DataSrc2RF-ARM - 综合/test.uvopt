@@ -130,7 +130,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>/</Name>
+          <Name></Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -157,32 +157,32 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>99</LineNumber>
+          <LineNumber>93</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218462</Address>
+          <Address>134218386</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>97</LineNumber>
+          <LineNumber>98</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218460</Address>
+          <Address>134218398</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -191,80 +191,80 @@
           <Type>0</Type>
           <LineNumber>100</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218484</Address>
+          <Address>134218400</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
           <Number>3</Number>
           <Type>0</Type>
-          <LineNumber>104</LineNumber>
+          <LineNumber>39</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218524</Address>
+          <Address>134218546</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression></Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\39</Expression>
         </Bp>
         <Bp>
           <Number>4</Number>
           <Type>0</Type>
-          <LineNumber>103</LineNumber>
+          <LineNumber>40</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218518</Address>
+          <Address>134218550</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression></Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\40</Expression>
         </Bp>
         <Bp>
           <Number>5</Number>
           <Type>0</Type>
-          <LineNumber>66</LineNumber>
+          <LineNumber>41</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218428</Address>
+          <Address>134218554</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\Source/main.c\66</Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\41</Expression>
         </Bp>
         <Bp>
           <Number>6</Number>
           <Type>0</Type>
-          <LineNumber>67</LineNumber>
+          <LineNumber>101</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218436</Address>
+          <Address>134218416</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\485SerialCom-ARM\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\test\Source/main.c\67</Expression>
+          <Expression>\\Serial485\Source/serial.c\101</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -272,6 +272,21 @@
           <count>0</count>
           <WinNumber>1</WinNumber>
           <ItemText>USART2</ItemText>
+        </Ww>
+        <Ww>
+          <count>1</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>SerialBuffer</ItemText>
+        </Ww>
+        <Ww>
+          <count>2</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>SerialDataLength</ItemText>
+        </Ww>
+        <Ww>
+          <count>3</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>USARTx</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
@@ -334,10 +349,10 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>21</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>130</TopLine>
-      <CurrentLine>133</CurrentLine>
+      <TopLine>126</TopLine>
+      <CurrentLine>137</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\startup_stm32f10x_md.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
@@ -376,8 +391,8 @@
       <Focus>0</Focus>
       <ColumnNumber>2</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>25</TopLine>
-      <CurrentLine>28</CurrentLine>
+      <TopLine>65</TopLine>
+      <CurrentLine>76</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -390,10 +405,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>10</ColumnNumber>
+      <ColumnNumber>21</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>174</TopLine>
-      <CurrentLine>157</CurrentLine>
+      <TopLine>91</TopLine>
+      <CurrentLine>13</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\serial.c</PathWithFileName>
       <FilenameWithoutPath>serial.c</FilenameWithoutPath>
@@ -404,12 +419,12 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>34</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>2</CurrentLine>
+      <TopLine>55</TopLine>
+      <CurrentLine>72</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\ammeter_cmd.c</PathWithFileName>
       <FilenameWithoutPath>ammeter_cmd.c</FilenameWithoutPath>
@@ -422,13 +437,45 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>2</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
-      <CurrentLine>3</CurrentLine>
+      <CurrentLine>18</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\rfcomm.c</PathWithFileName>
       <FilenameWithoutPath>rfcomm.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>7</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>23</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>1</TopLine>
+      <CurrentLine>117</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\CPESchipdef.c</PathWithFileName>
+      <FilenameWithoutPath>CPESchipdef.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>8</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>7</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>1</TopLine>
+      <CurrentLine>11</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\dscomm.c</PathWithFileName>
+      <FilenameWithoutPath>dscomm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -442,7 +489,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>7</FileNumber>
+      <FileNumber>9</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
@@ -458,7 +505,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>8</FileNumber>
+      <FileNumber>10</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
@@ -474,7 +521,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>9</FileNumber>
+      <FileNumber>11</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
@@ -490,14 +537,14 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>10</FileNumber>
+      <FileNumber>12</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>1</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>584</TopLine>
-      <CurrentLine>590</CurrentLine>
+      <TopLine>556</TopLine>
+      <CurrentLine>572</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Lib\stm32f10x_usart.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_usart.c</FilenameWithoutPath>
@@ -506,7 +553,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>11</FileNumber>
+      <FileNumber>13</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
@@ -522,7 +569,7 @@
     </File>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>12</FileNumber>
+      <FileNumber>14</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>

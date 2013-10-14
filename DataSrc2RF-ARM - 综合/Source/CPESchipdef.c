@@ -128,3 +128,15 @@ void NVIC_Configuration(void)
   NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x0);   
 #endif
 }
+void getNodeInfo(void)
+{
+	//print NODE_NUM
+	//print AMMETER_ADDR
+	//print AMMETER_NUM
+}
+
+void Delay(vu32 nCount)
+{
+	for(; nCount != 0; nCount--);
+}
+

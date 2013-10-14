@@ -10,6 +10,7 @@
 
 #include "serial.h"
 #include "rfcomm.h"
+#include "dscomm.h"
 
 extern u8 SerialBuffer[50];
 extern u8 SerialDataLength;
@@ -18,10 +19,7 @@ extern u8 RFDataLength;
 
 void initBoard(void);
 void copyBuffer(u8 src[], u8* srcLength, u8 dst[], u8* dstLength);
-void Delay(vu32 nCount)
-{
-	for(; nCount != 0; nCount--);
-}
+
 
 int main()
 {
@@ -46,9 +44,10 @@ int main()
 //		//测试USART2的数据发送和接收  通过！！！！
 //		USART_WaitForData();
 //		
-//		Delay(0xffff);
+//		Delay(0xfffff);
 //		
 //		USART_SendCmd();
+
 		
 //		//测试USART1的数据发送和接收    通过！！！！
 //		RF_RecvCmd();
@@ -56,24 +55,31 @@ int main()
 //		Delay(0xffff);
 //		
 //		RF_SendData();
+
 		
+//		//获取电度表参数              通过！！！！！
+//		Delay(0xfff);
+//		AMT_getAmtPara();
+	
 		
-//			arm接收RF发送同步指令
-		RF_RecvCmd();
-//			arm向电表发送参数测量指令
-		  //DS_SendCmd();
-		Delay(0xffff);
-		copyBuffer(RFBuffer, &RFDataLength, SerialBuffer, &SerialDataLength);
-		USART_SendCmd();
-//			arm接收电表返回数据
-		  //DS_RecvData();
-		USART_WaitForData();
+////			arm接收RF发送同步指令    通过！！！！
+//		RF_RecvCmd();
+////			arm向电表发送参数测量，arm接收电表返回数据
+//		Delay(0xfff); 
+//		DS_getAMTData();	
+////			arm将收到的电参数发送给RF
+////		Delay(0xffff);
+//		copyBuffer(SerialBuffer, &SerialDataLength, RFBuffer, &RFDataLength);
+//		RF_SendData();
+		
+
+//
+		DS_getAMTData();	
 //			arm将收到的电参数发送给RF
-		Delay(0xffff);
+//		Delay(0xffff);
 		copyBuffer(SerialBuffer, &SerialDataLength, RFBuffer, &RFDataLength);
 		RF_SendData();
-		
-		
+				
 		
 	}
 	

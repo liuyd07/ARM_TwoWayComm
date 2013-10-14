@@ -30,15 +30,27 @@ u8 TxCounter = 0, RxCounter = 0;
 void USART_Configuration(USART_TypeDef* USARTx)
 {
 	u32 USART_BaudRate;
+	u16 USART_Parity;
+	u16 USART_WordLength;
 	if (USARTx == DataSrcPort)
+	{
 		USART_BaudRate = DATASRCPORT_BAUDRATE;
+		USART_Parity = DATASRCPORT_PARITY;
+		USART_WordLength = DATASRCPORT_WORDLENGTH;
+	}
 	else
+	{
 		if (USARTx == RFPort)
+		{
 			USART_BaudRate =  RFPORT_BAUDRATE;
+			USART_Parity = RFPORT_PARITY;
+			USART_WordLength = RFPORT_WORDLENGTH;
+		}
+	}
 	USART_InitStructure.USART_BaudRate = USART_BaudRate;               //设置波特率
-	USART_InitStructure.USART_WordLength = USART_WordLength_8b;  //设置数据位为8
+	USART_InitStructure.USART_WordLength = USART_WordLength;  //设置数据位为8
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;     //设置停止位为1位
-	USART_InitStructure.USART_Parity = USART_Parity_No;             //无奇偶校验
+	USART_InitStructure.USART_Parity = USART_Parity;             //对于电表为偶校验，无线为无校验
 	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None; //无硬件流控
 	USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx; //发送和接收
 	
@@ -48,13 +60,13 @@ void USART_Configuration(USART_TypeDef* USARTx)
 }
 
 /*******************************************************************************
-* Function Name  : USART_WaitForData
+* Function Name  : USART_Recv
 * Description    : Save data from serial port.
 * Input          : None
 * Output         : None
 * Return         : None
 *******************************************************************************/
-void USART_WaitForData(void)
+void USART_Recv(void)
 {
 	u8 SerialBufferIdx = 0;
 	
@@ -71,19 +83,19 @@ void USART_WaitForData(void)
 }
 
 /*******************************************************************************
-* Function Name  : USART_SendCmd
+* Function Name  : USART_Send
 * Description    : Send Cmd from data source port.
 * Input          : None
 * Output         : None
 * Return         : None
 *******************************************************************************/
-void USART_SendCmd(void)
+void USART_Send(void)
 {
 	u8 SerialBufferIdx = 0;
 	
 	SERIAL485_TX_ENABLE;
 	//发送TxBuffer数据给终端
-	while(SerialBufferIdx < SerialDataLength)
+	while(SerialBufferIdx < SerialDataLength+1)
 	{
 		USART_SendData(DataSrcPort, SerialBuffer[SerialBufferIdx++]);
 		while(USART_GetFlagStatus(DataSrcPort, USART_FLAG_TXE) == RESET){};		
