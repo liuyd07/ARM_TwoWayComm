@@ -1,7 +1,7 @@
 Dependencies for Project 'test', Target 'Serial485': (DO NOT MODIFY !)
 F (.\startup_stm32f10x_md.s)(0x51E79C38)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\obj\startup_stm32f10x_md.o --depend .\obj\startup_stm32f10x_md.d)
 F (.\cortexm3_macro.s)(0x523D93E2)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\cortexm3_macro.lst --xref -o .\obj\cortexm3_macro.o --depend .\obj\cortexm3_macro.d)
-F (.\Source\main.c)(0x525B911E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+F (.\Source\main.c)(0x525BF4B3)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
@@ -31,12 +31,13 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525B89F8)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525B8F01)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\rfcomm.h)(0x5258C77A)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\ammeter_cmd.h)(0x525B4791)
-F (.\Source\serial.c)(0x525B8FAE)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525B89F8)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525BEDCE)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\rfcomm.h)(0x5258C77A)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\dscomm.h)(0x525BE753)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\ammeter_cmd.h)(0x525BF1AF)
+F (.\Source\serial.c)(0x525BEE2B)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525BEDCE)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
@@ -65,12 +66,12 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_systick.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525B8F01)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
 I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-F (.\Source\ammeter_cmd.c)(0x525BC381)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\ammeter_cmd.o --omf_browse .\obj\ammeter_cmd.crf --depend .\obj\ammeter_cmd.d)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\ammeter_cmd.h)(0x525B4791)
+F (.\Source\ammeter_cmd.c)(0x525BF47A)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\ammeter_cmd.o --omf_browse .\obj\ammeter_cmd.crf --depend .\obj\ammeter_cmd.d)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\ammeter_cmd.h)(0x525BF1AF)
 I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525B89F8)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525BEDCE)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
@@ -99,10 +100,10 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_systick.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525B8F01)
-F (.\Source\rfcomm.c)(0x525A8A70)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\rfcomm.o --omf_browse .\obj\rfcomm.crf --depend .\obj\rfcomm.d)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\rfcomm.h)(0x5258C77A)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525B89F8)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
+F (.\Source\rfcomm.c)(0x525BE705)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\rfcomm.o --omf_browse .\obj\rfcomm.crf --depend .\obj\rfcomm.d)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\rfcomm.h)(0x5258C77A)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525BEDCE)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
@@ -131,10 +132,10 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_systick.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525B8F01)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
 I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 F (.\Source\CPESchipdef.c)(0x525BE193)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\cpeschipdef.o --omf_browse .\obj\cpeschipdef.crf --depend .\obj\cpeschipdef.d)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525B8F01)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
 I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
@@ -164,7 +165,40 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_systick.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
-F (.\Source\dscomm.c)(0x525BE1B5)()
+F (.\Source\dscomm.c)(0x525BF416)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\dscomm.o --omf_browse .\obj\dscomm.crf --depend .\obj\dscomm.d)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\dscomm.h)(0x525BE753)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\CPESchipdef.h)(0x525BE147)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_lib.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_type.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\cortexm3_macro.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_adc.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_bkp.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_can.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_crc.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_dac.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_dbgmcu.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_dma.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_exti.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_flash.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_fsmc.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_gpio.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_i2c.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_iwdg.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_nvic.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_pwr.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_rcc.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_rtc.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_sdio.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_spi.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_systick.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_tim.h)(0x4E3FBBA8)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_usart.h)(0x52575FE3)
+I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_wwdg.h)(0x4E3FBBA8)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\serial.h)(0x525BEDCE)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Source\ammeter_cmd.h)(0x525BF1AF)
 F (.\Lib\stm32f10x_gpio.c)(0x51E798D0)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_gpio.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
@@ -221,7 +255,7 @@ I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_type.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\cortexm3_macro.h)(0x4E3FBBA8)
 F (.\Lib\stm32f10x_nvic.c)(0x523D8A18)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I.\Lib -I.\Source-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\obj\stm32f10x_nvic.o --omf_browse .\obj\stm32f10x_nvic.crf --depend .\obj\stm32f10x_nvic.d)
-I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM - 综合\Lib\stm32f10x_nvic.h)(0x523D8A34)
+I (E:\CPES平台\硬件平台\ARM调试\DataSrc2RF-ARM-综合2\ARM_TwoWayComm\DataSrc2RF-ARM - 综合\Lib\stm32f10x_nvic.h)(0x523D8A34)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_map.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_conf.h)(0x4E3FBBA8)
 I (D:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_type.h)(0x4E3FBBA8)
