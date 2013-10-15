@@ -1,10 +1,5 @@
 //本程序通过USART2串口向外发送数据
 
-#include "stm32f10x.h"
-
-#include <stdio.h>
-
-#include "serial.h"
 #include "rfcomm.h"
 #include "dscomm.h"
 
@@ -12,6 +7,9 @@ extern u8 SerialBuffer[50];
 extern u8 SerialDataLength;
 extern u8 RFBuffer[50];
 extern u8 RFDataLength;
+
+u8 idx = 0;
+AMTCmdType cmdType = READ_CURRENT;
 
 void initBoard(void);
 void copyBuffer(u8 src[], u8* srcLength, u8 dst[], u8* dstLength);
@@ -70,13 +68,15 @@ int main()
 		
 
 //
-		DS_getAMTData();	
-//			arm将收到的电参数发送给RF
-//		Delay(0xffff);
-		copyBuffer(SerialBuffer, &SerialDataLength, RFBuffer, &RFDataLength);
-		RF_SendData();
-				
-		
+	  RF_RecvCmd();
+		for(idx = 0;idx < 2;idx++)
+		{
+			DS_getAMTPara(cmdType++);
+			//arm将收到的电参数发送给RF
+			copyBuffer(SerialBuffer, &SerialDataLength, RFBuffer, &RFDataLength);
+			RF_SendData();
+		}			
+		cmdType = READ_CURRENT;
 	}
 	
 }

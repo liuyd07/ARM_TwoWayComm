@@ -2,23 +2,14 @@
 
 #include "serial.h"
 #include "CPESchipdef.h"
-#include <stdio.h>
 
-GPIO_InitTypeDef GPIO_InitStructure;
-USART_InitTypeDef USART_InitStructure;
-
-u8 TxBuffer[16] = {0x68,0x04,0x00,0x00,0x00,0x00,0x00,0x68,0x11,0x04,0x33,0x34,0x34,0x35,0xB9,0x16};//测试缓存
-u8 TxBufferSize = 16;
-u8 RxBuffer[16] = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
-u8 RxBufferSize = 16;
-
-u8 SerialBufferSize = 50; //串口缓存大小可更改
-u8 SerialBuffer[50];
+/*
+	serial buffer and data length local storage
+*/
+u8 SerialBuffer[SERIAL_BUFFER_SIZE];
 u8 SerialDataLength = 0;  //记录每次收发数据的长度
 
-u8 TxCounter = 0, RxCounter = 0;
-
-
+SerialRxStatus RxFlag = RX_SUCCESS;
 
 /*******************************************************************************
 * Function Name  : USART_Configuration
@@ -32,6 +23,8 @@ void USART_Configuration(USART_TypeDef* USARTx)
 	u32 USART_BaudRate;
 	u16 USART_Parity;
 	u16 USART_WordLength;
+	USART_InitTypeDef USART_InitStructure;
+	
 	if (USARTx == DataSrcPort)
 	{
 		USART_BaudRate = DATASRCPORT_BAUDRATE;
@@ -73,13 +66,16 @@ void USART_Recv(void)
 	SERIAL485_RX_ENABLE;
 	
 	USART_ReceiveData(DataSrcPort);
-	while((SerialBufferIdx < SerialBufferSize) && (SerialBuffer[SerialBufferIdx-1] != SERIAL_END_CODE))
+	while((SerialBufferIdx < SERIAL_BUFFER_SIZE) && (SerialBuffer[SerialBufferIdx-1] != SERIAL_END_CODE))
 	{
 		while(USART_GetFlagStatus(DataSrcPort, USART_FLAG_RXNE) == RESET )
-		{}
+		{
+			// 不要等待太长，需要设置等待响应时间
+		}
 		SerialBuffer[SerialBufferIdx++] = USART_ReceiveData(DataSrcPort);
 	}
 	SerialDataLength = SerialBufferIdx;
+	RxFlag = RX_SUCCESS;
 }
 
 /*******************************************************************************

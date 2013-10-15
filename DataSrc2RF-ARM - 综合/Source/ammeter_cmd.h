@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include "stm32f10x.h"
 #include "type.h"
-#include "serial.h"
 
 /*********************智能电表指令规范***************************/
 #define START_CODE                   0x68
@@ -62,13 +61,11 @@ typedef union {
 
 typedef u8 AMTCmdType;
 
+typedef u8 AMT_Addr[ADDR_LENGTH];
+
 /***********************function*************************/
 u8 getCheckCode(AMTReadCmd cmd);
-void AMT_RecvData(void);
-void AMT_SendCmd(void);
-void AMT_getAmtPara(void);
-void AMT_copyBuffer(void);
-AMTReadCmd generateCmd(AMTCmdType cmdType);
+AMTReadCmd generateCmd(AMT_Addr addr, AMTCmdType cmdType);
 
 #endif
 

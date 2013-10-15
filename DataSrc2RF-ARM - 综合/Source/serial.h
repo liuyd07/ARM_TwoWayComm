@@ -18,6 +18,7 @@
 
 /*****************通信基本定义******************/
 #define SERIAL_END_CODE           0x16
+#define SERIAL_BUFFER_SIZE        50         //串口缓存大小在此更改
 
 /******************typedef*********************/
 typedef  struct
@@ -25,6 +26,9 @@ typedef  struct
 	u8* strData;
 	u8  strLength;
 }serialString;
+
+typedef enum {RX_FAILED = 0, RX_SUCCESS = !RX_FAILED} SerialRxStatus;
+
 /******************functions*******************/
 void InitUSARTPort(USART_TypeDef* USARTx);
 
