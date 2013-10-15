@@ -1,11 +1,7 @@
 //本程序通过USART2串口向外发送数据
 
-#include "stm32f10x_lib.h"
-//#include "stm32f10x_flash.h"
-//#include "stm32f10x_nvic.h"
-//#include "stm32f10x.h"
-//#include "stm32_eval.h"
-//#include "stm32f10x_crc.h"
+#include "stm32f10x.h"
+
 #include <stdio.h>
 
 #include "serial.h"

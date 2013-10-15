@@ -477,6 +477,36 @@
         <Group>
           <GroupName>Doc</GroupName>
         </Group>
+        <Group>
+          <GroupName>Header</GroupName>
+          <Files>
+            <File>
+              <FileName>ammeter_cmd.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\ammeter_cmd.h</FilePath>
+            </File>
+            <File>
+              <FileName>dscomm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dscomm.h</FilePath>
+            </File>
+            <File>
+              <FileName>CPESchipdef.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\CPESchipdef.h</FilePath>
+            </File>
+            <File>
+              <FileName>rfcomm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\rfcomm.h</FilePath>
+            </File>
+            <File>
+              <FileName>serial.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\serial.h</FilePath>
+            </File>
+          </Files>
+        </Group>
       </Groups>
     </Target>
   </Targets>

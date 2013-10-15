@@ -6,7 +6,9 @@
 #define __CPESCHIPDEF_H
 
 #include <stdio.h>
-#include "stm32f10x_lib.h"
+#include "stm32f10x.h"
+#include "stm32f10x_conf.h"
+#include "type.h"
 
 /**************¶Ë¿Ú¶¨Òå********************/
 //data source port

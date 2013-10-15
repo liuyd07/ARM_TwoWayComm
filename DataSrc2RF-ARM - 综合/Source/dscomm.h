@@ -3,7 +3,6 @@
 
 #include "CPESchipdef.h"
 #include <stdio.h>
-#include "stm32f10x_lib.h"
 #include "serial.h"
 #include "ammeter_cmd.h"
 
@@ -15,8 +14,13 @@
 
 #define SensorType         u8
 
-
+/***********************function*************************/
+void DS_RecvData(void);
+void DS_SendCmd(void);
 void DS_getAMTData(void);
+void DS_getTempData(void);
+void DS_getThermoElecData(void);
 void DS_getSensorData(SensorType sensorType);
+void DS_copyBuffer(u8 command[]);
 
 #endif

@@ -189,21 +189,181 @@
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>80</LineNumber>
+          <LineNumber>10</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218178</Address>
+          <Address>134219302</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\main.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
           <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>11</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219314</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>4</Number>
+          <Type>0</Type>
+          <LineNumber>12</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219318</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>5</Number>
+          <Type>0</Type>
+          <LineNumber>13</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219322</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>6</Number>
+          <Type>0</Type>
+          <LineNumber>14</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219330</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>7</Number>
+          <Type>0</Type>
+          <LineNumber>16</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219342</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>8</Number>
+          <Type>0</Type>
+          <LineNumber>8</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219298</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>9</Number>
+          <Type>0</Type>
+          <LineNumber>7</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219296</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>10</Number>
+          <Type>0</Type>
+          <LineNumber>124</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218662</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>11</Number>
+          <Type>0</Type>
+          <LineNumber>142</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218742</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>12</Number>
+          <Type>0</Type>
+          <LineNumber>139</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218710</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>13</Number>
           <Type>0</Type>
           <LineNumber>81</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -219,299 +379,139 @@
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>4</Number>
-          <Type>0</Type>
-          <LineNumber>10</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219294</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>5</Number>
-          <Type>0</Type>
-          <LineNumber>11</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219306</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>6</Number>
-          <Type>0</Type>
-          <LineNumber>12</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219310</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>7</Number>
-          <Type>0</Type>
-          <LineNumber>13</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219314</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>8</Number>
-          <Type>0</Type>
-          <LineNumber>14</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219322</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>9</Number>
-          <Type>0</Type>
-          <LineNumber>16</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219334</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>10</Number>
-          <Type>0</Type>
-          <LineNumber>8</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219290</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>11</Number>
-          <Type>0</Type>
-          <LineNumber>7</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219288</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\dscomm.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>12</Number>
-          <Type>0</Type>
-          <LineNumber>50</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218264</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\50</Expression>
-        </Bp>
-        <Bp>
-          <Number>13</Number>
-          <Type>0</Type>
-          <LineNumber>51</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218268</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\51</Expression>
-        </Bp>
-        <Bp>
           <Number>14</Number>
           <Type>0</Type>
-          <LineNumber>52</LineNumber>
+          <LineNumber>80</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218270</Address>
+          <Address>134218178</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\main.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\52</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>15</Number>
           <Type>0</Type>
-          <LineNumber>54</LineNumber>
+          <LineNumber>28</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218280</Address>
+          <Address>134219002</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\54</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>16</Number>
           <Type>0</Type>
-          <LineNumber>55</LineNumber>
+          <LineNumber>31</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218284</Address>
+          <Address>134219008</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\55</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>17</Number>
           <Type>0</Type>
-          <LineNumber>53</LineNumber>
+          <LineNumber>34</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218276</Address>
+          <Address>134219014</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\53</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>18</Number>
           <Type>0</Type>
-          <LineNumber>57</LineNumber>
+          <LineNumber>37</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218288</Address>
+          <Address>134219022</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\57</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>19</Number>
           <Type>0</Type>
-          <LineNumber>58</LineNumber>
+          <LineNumber>39</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218294</Address>
+          <Address>134219028</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\58</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>20</Number>
           <Type>0</Type>
-          <LineNumber>59</LineNumber>
+          <LineNumber>42</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218306</Address>
+          <Address>134219034</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\59</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>21</Number>
           <Type>0</Type>
-          <LineNumber>60</LineNumber>
+          <LineNumber>45</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218314</Address>
+          <Address>134219046</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\serial.c</Filename>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/serial.c\60</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>22</Number>
           <Type>0</Type>
-          <LineNumber>15</LineNumber>
+          <LineNumber>48</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218964</Address>
+          <Address>134219052</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -520,14 +520,14 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\15</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>23</Number>
           <Type>0</Type>
-          <LineNumber>17</LineNumber>
+          <LineNumber>53</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218966</Address>
+          <Address>134219064</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -536,14 +536,254 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\17</Expression>
+          <Expression></Expression>
         </Bp>
         <Bp>
           <Number>24</Number>
           <Type>0</Type>
+          <LineNumber>56</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219070</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>25</Number>
+          <Type>0</Type>
+          <LineNumber>62</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219080</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>26</Number>
+          <Type>0</Type>
+          <LineNumber>66</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134219090</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>27</Number>
+          <Type>0</Type>
+          <LineNumber>23</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218986</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>28</Number>
+          <Type>0</Type>
+          <LineNumber>25</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218994</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>29</Number>
+          <Type>0</Type>
+          <LineNumber>90</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218126</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>30</Number>
+          <Type>0</Type>
+          <LineNumber>215</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220326</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>31</Number>
+          <Type>0</Type>
+          <LineNumber>218</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220330</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>32</Number>
+          <Type>0</Type>
+          <LineNumber>219</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220346</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>33</Number>
+          <Type>0</Type>
+          <LineNumber>224</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220352</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>34</Number>
+          <Type>0</Type>
+          <LineNumber>221</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220332</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>35</Number>
+          <Type>0</Type>
+          <LineNumber>226</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220360</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>36</Number>
+          <Type>0</Type>
+          <LineNumber>230</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220364</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>37</Number>
+          <Type>0</Type>
+          <LineNumber>232</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220362</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>38</Number>
+          <Type>0</Type>
+          <LineNumber>214</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134220324</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Lib\stm32f10x_rcc.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
           <LineNumber>20</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218970</Address>
+          <Address>134218978</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -555,249 +795,137 @@
           <Expression>\\Serial485\Source/CPESchipdef.c\20</Expression>
         </Bp>
         <Bp>
-          <Number>25</Number>
-          <Type>0</Type>
-          <LineNumber>23</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218978</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\23</Expression>
-        </Bp>
-        <Bp>
-          <Number>26</Number>
-          <Type>0</Type>
-          <LineNumber>28</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218994</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\28</Expression>
-        </Bp>
-        <Bp>
-          <Number>27</Number>
-          <Type>0</Type>
-          <LineNumber>25</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218986</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\25</Expression>
-        </Bp>
-        <Bp>
-          <Number>28</Number>
-          <Type>0</Type>
-          <LineNumber>31</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219000</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\31</Expression>
-        </Bp>
-        <Bp>
-          <Number>29</Number>
-          <Type>0</Type>
-          <LineNumber>34</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219006</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\34</Expression>
-        </Bp>
-        <Bp>
-          <Number>30</Number>
-          <Type>0</Type>
-          <LineNumber>37</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219014</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\37</Expression>
-        </Bp>
-        <Bp>
-          <Number>31</Number>
-          <Type>0</Type>
-          <LineNumber>39</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219020</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\39</Expression>
-        </Bp>
-        <Bp>
-          <Number>32</Number>
-          <Type>0</Type>
-          <LineNumber>42</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219026</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\42</Expression>
-        </Bp>
-        <Bp>
-          <Number>33</Number>
-          <Type>0</Type>
-          <LineNumber>45</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219038</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\45</Expression>
-        </Bp>
-        <Bp>
-          <Number>34</Number>
-          <Type>0</Type>
-          <LineNumber>48</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219044</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\48</Expression>
-        </Bp>
-        <Bp>
-          <Number>35</Number>
-          <Type>0</Type>
-          <LineNumber>53</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219056</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\53</Expression>
-        </Bp>
-        <Bp>
-          <Number>36</Number>
-          <Type>0</Type>
-          <LineNumber>56</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219062</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\CPESchipdef.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/CPESchipdef.c\56</Expression>
-        </Bp>
-        <Bp>
-          <Number>37</Number>
-          <Type>0</Type>
-          <LineNumber>124</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218640</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\124</Expression>
-        </Bp>
-        <Bp>
-          <Number>38</Number>
-          <Type>0</Type>
-          <LineNumber>137</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218686</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\137</Expression>
-        </Bp>
-        <Bp>
-          <Number>39</Number>
-          <Type>0</Type>
-          <LineNumber>142</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218706</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\142</Expression>
-        </Bp>
-        <Bp>
           <Number>40</Number>
           <Type>0</Type>
-          <LineNumber>139</LineNumber>
+          <LineNumber>110</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218600</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\110</Expression>
+        </Bp>
+        <Bp>
+          <Number>41</Number>
+          <Type>0</Type>
+          <LineNumber>111</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218606</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\111</Expression>
+        </Bp>
+        <Bp>
+          <Number>42</Number>
+          <Type>0</Type>
+          <LineNumber>112</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218610</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\112</Expression>
+        </Bp>
+        <Bp>
+          <Number>43</Number>
+          <Type>0</Type>
+          <LineNumber>114</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218616</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\114</Expression>
+        </Bp>
+        <Bp>
+          <Number>44</Number>
+          <Type>0</Type>
+          <LineNumber>116</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218620</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\116</Expression>
+        </Bp>
+        <Bp>
+          <Number>45</Number>
+          <Type>0</Type>
+          <LineNumber>119</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218638</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\119</Expression>
+        </Bp>
+        <Bp>
+          <Number>46</Number>
+          <Type>0</Type>
+          <LineNumber>121</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218644</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\121</Expression>
+        </Bp>
+        <Bp>
+          <Number>47</Number>
+          <Type>0</Type>
+          <LineNumber>136</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218694</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\136</Expression>
+        </Bp>
+        <Bp>
+          <Number>48</Number>
+          <Type>0</Type>
+          <LineNumber>134</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>134218690</Address>
           <ByteObject>0</ByteObject>
@@ -808,14 +936,14 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\139</Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\134</Expression>
         </Bp>
         <Bp>
-          <Number>41</Number>
+          <Number>49</Number>
           <Type>0</Type>
-          <LineNumber>144</LineNumber>
+          <LineNumber>21</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218724</Address>
+          <Address>134218506</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -824,14 +952,14 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\144</Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\21</Expression>
         </Bp>
         <Bp>
-          <Number>42</Number>
+          <Number>50</Number>
           <Type>0</Type>
-          <LineNumber>143</LineNumber>
+          <LineNumber>22</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218714</Address>
+          <Address>134218508</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -840,7 +968,71 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Serial485\Source/ammeter_cmd.c\143</Expression>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\22</Expression>
+        </Bp>
+        <Bp>
+          <Number>51</Number>
+          <Type>0</Type>
+          <LineNumber>23</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218510</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\23</Expression>
+        </Bp>
+        <Bp>
+          <Number>52</Number>
+          <Type>0</Type>
+          <LineNumber>25</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218514</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\25</Expression>
+        </Bp>
+        <Bp>
+          <Number>53</Number>
+          <Type>0</Type>
+          <LineNumber>27</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218536</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\27</Expression>
+        </Bp>
+        <Bp>
+          <Number>54</Number>
+          <Type>0</Type>
+          <LineNumber>29</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218540</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>E:\CPES脝陆脤篓\脫虏录镁脝陆脤篓\ARM碌梅脢脭\DataSrc2RF-ARM-脳脹潞脧2\ARM_TwoWayComm\DataSrc2RF-ARM - 脳脹潞脧\Source\ammeter_cmd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\Serial485\Source/ammeter_cmd.c\29</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -873,6 +1065,16 @@
           <count>5</count>
           <WinNumber>1</WinNumber>
           <ItemText>amtCmd</ItemText>
+        </Ww>
+        <Ww>
+          <count>6</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>cmd</ItemText>
+        </Ww>
+        <Ww>
+          <count>7</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>idCode</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
@@ -935,10 +1137,10 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>22</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>126</TopLine>
-      <CurrentLine>132</CurrentLine>
+      <CurrentLine>133</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\startup_stm32f10x_md.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
@@ -977,7 +1179,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>72</TopLine>
+      <TopLine>70</TopLine>
       <CurrentLine>77</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\main.c</PathWithFileName>
@@ -991,10 +1193,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>13</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>46</TopLine>
-      <CurrentLine>60</CurrentLine>
+      <TopLine>50</TopLine>
+      <CurrentLine>71</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\serial.c</PathWithFileName>
       <FilenameWithoutPath>serial.c</FilenameWithoutPath>
@@ -1005,12 +1207,12 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>10</ColumnNumber>
+      <ColumnNumber>3</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>115</TopLine>
-      <CurrentLine>144</CurrentLine>
+      <TopLine>62</TopLine>
+      <CurrentLine>24</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\ammeter_cmd.c</PathWithFileName>
       <FilenameWithoutPath>ammeter_cmd.c</FilenameWithoutPath>
@@ -1039,10 +1241,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>19</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>48</TopLine>
-      <CurrentLine>56</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>2</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\CPESchipdef.c</PathWithFileName>
       <FilenameWithoutPath>CPESchipdef.c</FilenameWithoutPath>
@@ -1055,10 +1257,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>19</ColumnNumber>
+      <ColumnNumber>25</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>7</TopLine>
-      <CurrentLine>14</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>62</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\dscomm.c</PathWithFileName>
       <FilenameWithoutPath>dscomm.c</FilenameWithoutPath>
@@ -1111,10 +1313,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>16</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>13</TopLine>
+      <CurrentLine>22</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Lib\stm32f10x_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rcc.c</FilenameWithoutPath>
@@ -1129,7 +1331,7 @@
       <Focus>0</Focus>
       <ColumnNumber>1</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>557</TopLine>
+      <TopLine>558</TopLine>
       <CurrentLine>572</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Lib\stm32f10x_usart.c</PathWithFileName>
@@ -1177,6 +1379,94 @@
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
+  </Group>
+
+  <Group>
+    <GroupName>Header</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>15</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\ammeter_cmd.h</PathWithFileName>
+      <FilenameWithoutPath>ammeter_cmd.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>16</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\dscomm.h</PathWithFileName>
+      <FilenameWithoutPath>dscomm.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>17</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\CPESchipdef.h</PathWithFileName>
+      <FilenameWithoutPath>CPESchipdef.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>18</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\rfcomm.h</PathWithFileName>
+      <FilenameWithoutPath>rfcomm.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>19</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Source\serial.h</PathWithFileName>
+      <FilenameWithoutPath>serial.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
   </Group>
 
 </ProjectOpt>

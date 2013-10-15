@@ -2,7 +2,8 @@
 #define __AMMETER_CMD_H
 
 #include <stdio.h>
-#include "stm32f10x_lib.h"
+#include "stm32f10x.h"
+#include "type.h"
 #include "serial.h"
 
 /*********************智能电表指令规范***************************/
@@ -34,6 +35,8 @@
 #define READ_POWER_FACTOR_CODE       ((u32)0x35383433)
 
 /*********************typedef***************************/
+
+/*specific ammeter command structure-------------------*/
 typedef struct __AmmeterCmdStruct{
 	u8 startCode;
 	u8 addr[ADDR_LENGTH];
@@ -45,11 +48,13 @@ typedef struct __AmmeterCmdStruct{
 	u8 endCode;
 }AmmeterCmdStruct;
 
+/*easy way to send ammeter command in array-------------*/
 typedef union {
 	u8 all[READ_CMD_LENGTH];
 	AmmeterCmdStruct ammeterCmdStruct;
 } AMTReadCmd;
 
+/*identity code-----------------------------------------*/
 typedef union {
 	u32 code;
 	u8  codeArr[IDENTITY_CODE_LENGTH];
