@@ -1,6 +1,12 @@
 #include "dscomm.h"
 
-
+/****************************************************************
+* Function Name  : DS_getAMTData
+* Description    : get ammeter data measurement schedule. 
+* Input          : None
+* Output         : None
+* Return         : None
+****************************************************************/
 void DS_getAMTData(void)
 {
 	u8 idx = 0;
@@ -15,14 +21,35 @@ void DS_getAMTData(void)
 	}	
 }
 
+/****************************************************************
+* Function Name  : DS_getTempData
+* Description    : read temperature sensor data. 
+* Input          : None
+* Output         : None
+* Return         : None
+****************************************************************/
 void DS_getTempData(void)
 {
 }
 
-void DS_getRadioData(void)
+/****************************************************************
+* Function Name  : DS_getThermoElecData
+* Description    : read thermoelectrical sensor data. 
+* Input          : None
+* Output         : None
+* Return         : None
+****************************************************************/
+void DS_getThermoElecData(void)
 {
 }
 
+/****************************************************************
+* Function Name  : DS_getSensorData
+* Description    : read sensor data on board, not through serial ports. 
+* Input          : None
+* Output         : None
+* Return         : None
+****************************************************************/
 void DS_getSensorData(SensorType sensorType)
 {
 	switch(sensorType)
@@ -30,7 +57,7 @@ void DS_getSensorData(SensorType sensorType)
 		case TEMP_SENSOR:
 			DS_getTempData();
 		case RADIO_SENSOR:
-			DS_getRadioData();
+			DS_getThermoElecData();
 		default:;
 	}
 }

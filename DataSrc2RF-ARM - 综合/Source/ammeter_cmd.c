@@ -4,11 +4,7 @@ u8 commandForAmt1Current[16] = {0x68, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x68, 
 u8 commandLength = 16;
 u8 AMT_addr[6] = AMMETER_ADDR;
 
-union
-{
-	u8 all[16];
-	AmmeterCmdStruct ammeterCmdStruct;
-}amtCmd;
+AMTReadCmd amtCmd;
 
 extern u8 SerialBuffer[50];
 extern u8 SerialDataLength;
@@ -20,15 +16,15 @@ extern u8 SerialDataLength;
 * Output         : None
 * Return         : u8 checkCode
 ****************************************************************/
-u8 getCheckCode(void)
+u8 getCheckCode(AMTReadCmd cmd)
 {
 	u8 idx = 0;
 	u8 sum = 0;
 	for (idx = 0;idx < commandLength-2;idx++)
 	{
-		sum += amtCmd.all[idx];
+		sum += cmd.all[idx];
 	}
-	amtCmd.ammeterCmdStruct.checkCode = sum;
+	cmd.ammeterCmdStruct.checkCode = sum;
 	return sum;
 }
 
@@ -84,9 +80,9 @@ void AMT_copyBuffer(void)
 void AMT_getAmtPara(void)
 {
 	u8 idx = 0;
-	for(idx = 0;idx < NUM_OF_PARAS; idx++)
+	for(idx = 1;idx < NUM_OF_PARAS; idx++)
 	{
-		amtCmd.ammeterCmdStruct = generateCmd(idx);
+		amtCmd = generateCmd(idx);
 		AMT_copyBuffer();
 		AMT_SendCmd();
 		Delay(0xfff);
@@ -101,27 +97,25 @@ void AMT_getAmtPara(void)
 * Output         : None
 * Return         : None
 ****************************************************************/
-AmmeterCmdStruct generateCmd(AMTCmdType cmdType)
+AMTReadCmd generateCmd(AMTCmdType cmdType)
 {
 	u8 idx;
-	union i
-	{
-		u32 code;
-		u8  codeArr[4];
-	}idCode;
-	AmmeterCmdStruct cmdStruct;
-	cmdStruct.startCode    =  START_CODE;
-	cmdStruct.addrEndCode  =  START_CODE;
-	cmdStruct.endCode      =  END_CODE;
+	IdentityCode idCode;
+	AMTReadCmd cmd;
+	
+	cmd.ammeterCmdStruct.startCode         =  START_CODE;
+	cmd.ammeterCmdStruct.addrEndCode       =  START_CODE;
+	cmd.ammeterCmdStruct.endCode           =  END_CODE;
 	
 	for(idx = 0;idx < ADDR_LENGTH;idx++)
 	{
-		cmdStruct.addr[idx]	 =  AMT_addr[idx];  //地址赋值。没有找到好的方法，只能先用数组。
+		cmd.ammeterCmdStruct.addr[idx]	     =  AMT_addr[idx];  //地址赋值。没有找到好的方法，只能先用数组。
 	}
 	
-	cmdStruct.cmdCode      =  READ_CMD_CODE;
+	cmd.ammeterCmdStruct.cmdCode           =  READ_CMD_CODE;
+	cmd.ammeterCmdStruct.dataSectionLength = DATA_SECTION_LENGTH_CODE;
 	
-	switch(cmdType)
+	switch(cmdType)                           //这种方法扩展性很好，但比较冗长，有待改进
 	{
 		case READ_CURRENT:
 			idCode.code = READ_CURRENT_CODE;
@@ -136,11 +130,11 @@ AmmeterCmdStruct generateCmd(AMTCmdType cmdType)
 	
 	for(idx = 0;idx < ID_CODE_LENGTH;idx++)
 	{
-		cmdStruct.idCode[idx]= idCode.codeArr[idx];
+		cmd.ammeterCmdStruct.idCode[idx]     = idCode.codeArr[idx];
 	}
 	
-	cmdStruct.checkCode    =	getCheckCode();
-	amtCmd.ammeterCmdStruct = cmdStruct;
-	return cmdStruct;
+	cmd.ammeterCmdStruct.checkCode         =	getCheckCode(cmd);
+	amtCmd = cmd;
+	return cmd;
 }
 
