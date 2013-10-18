@@ -36,7 +36,7 @@
 
 /****************节点外设参数定义************/
 #define NODE_NUM									1  //每个节点号均独立，sink节点号为0
-#define	AMMETER_ADDR              {0x04, 0x00, 0x00, 0x00, 0x00, 0x00}
+#define	AMMETER_ADDR              {0x04, 0x00, 0x00, 0x00, 0x00, 0x00}//{0x70, 0x04, 0x43, 0x11, 0x12, 0x00}
 #define AMMETER_NUM								1
 
 /**************系统操作********************/

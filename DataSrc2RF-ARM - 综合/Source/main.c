@@ -68,8 +68,8 @@ int main()
 		
 
 //
-	  RF_RecvCmd();
-		for(idx = 0;idx < 2;idx++)
+	  //RF_RecvCmd();
+		for(idx = 0;idx < NUM_OF_PARAS;idx++)
 		{
 			DS_getAMTPara(cmdType++);
 			//arm将收到的电参数发送给RF

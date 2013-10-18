@@ -349,9 +349,9 @@
             <uSurpInc>0</uSurpInc>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>STM32F10X_MD USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Lib;.\Source</IncludePath>
+              <IncludePath>.\Source;.\ARMLib;.\ARMLib\STM32F10x_StdPeriph_Driver\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -445,32 +445,27 @@
             <File>
               <FileName>stm32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_lib.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_lib.c</FilePath>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_rcc.c</FilePath>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_usart.c</FilePath>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_flash.c</FilePath>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_nvic.c</FileName>
+              <FileName>misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Lib\stm32f10x_nvic.c</FilePath>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\misc.c</FilePath>
             </File>
           </Files>
         </Group>

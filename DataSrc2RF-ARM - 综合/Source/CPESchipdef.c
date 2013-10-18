@@ -137,6 +137,8 @@ void getNodeInfo(void)
 
 void Delay(vu32 nCount)
 {
-	for(; nCount != 0; nCount--);
+	int i,j;
+	for(i = 0; i < nCount; i++)
+		for(j = 0; j < nCount; j++);
 }
 
