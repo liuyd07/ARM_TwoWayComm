@@ -42,7 +42,6 @@ Section Cross References
     stm32f10x_gpio.o(.text) refers to stm32f10x_rcc.o(.text) for RCC_APB2PeriphResetCmd
     stm32f10x_rcc.o(.text) refers to stm32f10x_rcc.o(.data) for APBAHBPrescTable
     stm32f10x_usart.o(.text) refers to stm32f10x_rcc.o(.text) for RCC_APB2PeriphResetCmd
-    stm32f10x_pwr.o(.text) refers to stm32f10x_rcc.o(.text) for RCC_APB1PeriphResetCmd
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
@@ -88,14 +87,8 @@ Removing Unused input sections from the image.
     Removing stm32f10x_flash.o(.revsh_text), (4 bytes).
     Removing misc.o(.rev16_text), (4 bytes).
     Removing misc.o(.revsh_text), (4 bytes).
-    Removing stm32f10x_rtc.o(.rev16_text), (4 bytes).
-    Removing stm32f10x_rtc.o(.revsh_text), (4 bytes).
-    Removing stm32f10x_rtc.o(.text), (324 bytes).
-    Removing stm32f10x_pwr.o(.rev16_text), (4 bytes).
-    Removing stm32f10x_pwr.o(.revsh_text), (4 bytes).
-    Removing stm32f10x_pwr.o(.text), (204 bytes).
 
-30 unused section(s) (total 1218 bytes) removed from the image.
+24 unused section(s) (total 674 bytes) removed from the image.
 
 ==============================================================================
 
@@ -105,34 +98,30 @@ Image Symbol Table
 
     Symbol Name                              Value     Ov Type        Size  Object(Section)
 
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
     ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
-    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
     ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
     ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
     ARMLib\STM32F10x_StdPeriph_Driver\src\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
     ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c 0x00000000   Number         0  stm32f10x_flash.o ABSOLUTE
     ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c 0x00000000   Number         0  stm32f10x_gpio.o ABSOLUTE
-    ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c 0x00000000   Number         0  stm32f10x_pwr.o ABSOLUTE
     ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c 0x00000000   Number         0  stm32f10x_rcc.o ABSOLUTE
-    ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c 0x00000000   Number         0  stm32f10x_rtc.o ABSOLUTE
     ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c 0x00000000   Number         0  stm32f10x_usart.o ABSOLUTE
     ARMLib\\STM32F10x_StdPeriph_Driver\\src\\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
     ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_flash.c 0x00000000   Number         0  stm32f10x_flash.o ABSOLUTE
     ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_gpio.c 0x00000000   Number         0  stm32f10x_gpio.o ABSOLUTE
-    ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_pwr.c 0x00000000   Number         0  stm32f10x_pwr.o ABSOLUTE
     ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_rcc.c 0x00000000   Number         0  stm32f10x_rcc.o ABSOLUTE
-    ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_rtc.c 0x00000000   Number         0  stm32f10x_rtc.o ABSOLUTE
     ARMLib\\STM32F10x_StdPeriph_Driver\\src\\stm32f10x_usart.c 0x00000000   Number         0  stm32f10x_usart.o ABSOLUTE
     Source\CPESchipdef.c                     0x00000000   Number         0  cpeschipdef.o ABSOLUTE
     Source\\CPESchipdef.c                    0x00000000   Number         0  cpeschipdef.o ABSOLUTE
@@ -444,15 +433,15 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x000000ec   Data   RO            3    RESET               startup_stm32f10x_md.o
-    0x080000ec   0x00000000   Code   RO          410  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x080000ec   0x00000004   Code   RO          417    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x080000f0   0x00000004   Code   RO          420    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x080000f4   0x00000000   Code   RO          422    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x080000f4   0x00000000   Code   RO          424    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x080000f4   0x00000008   Code   RO          425    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x080000fc   0x00000000   Code   RO          427    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x080000fc   0x00000000   Code   RO          429    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x080000fc   0x00000004   Code   RO          418    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x080000ec   0x00000000   Code   RO          352  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080000ec   0x00000004   Code   RO          359    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080000f0   0x00000004   Code   RO          362    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080000f4   0x00000000   Code   RO          364    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080000f4   0x00000000   Code   RO          366    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080000f4   0x00000008   Code   RO          367    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080000fc   0x00000000   Code   RO          369    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x080000fc   0x00000000   Code   RO          371    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x080000fc   0x00000004   Code   RO          360    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000100   0x00000024   Code   RO            4  * .text               startup_stm32f10x_md.o
     0x08000124   0x000000b8   Code   RO           15    .text               main.o
     0x080001dc   0x00000114   Code   RO          103    .text               serial.o
@@ -460,18 +449,18 @@ Memory Map of the image
     0x080003d0   0x00000084   Code   RO          151    .text               rfcomm.o
     0x08000454   0x0000014c   Code   RO          175    .text               cpeschipdef.o
     0x080005a0   0x000000fc   Code   RO          198    .text               dscomm.o
-    0x0800069c   0x00000358   Code   RO          231    .text               stm32f10x_gpio.o
-    0x080009f4   0x000003a4   Code   RO          269    .text               stm32f10x_rcc.o
-    0x08000d98   0x00000408   Code   RO          297    .text               stm32f10x_usart.o
-    0x080011a0   0x000005bc   Code   RO          320    .text               stm32f10x_flash.o
-    0x0800175c   0x000000dc   Code   RO          343    .text               misc.o
-    0x08001838   0x00000024   Code   RO          413    .text               mc_w.l(memcpya.o)
-    0x0800185c   0x00000024   Code   RO          431    .text               mc_w.l(init.o)
-    0x08001880   0x0000000e   Code   RO          435    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0800188e   0x00000002   Code   RO          436    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08001890   0x0000000e   Code   RO          437    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800069c   0x00000358   Code   RO          219    .text               stm32f10x_gpio.o
+    0x080009f4   0x000003a4   Code   RO          257    .text               stm32f10x_rcc.o
+    0x08000d98   0x00000408   Code   RO          285    .text               stm32f10x_usart.o
+    0x080011a0   0x000005bc   Code   RO          308    .text               stm32f10x_flash.o
+    0x0800175c   0x000000dc   Code   RO          331    .text               misc.o
+    0x08001838   0x00000024   Code   RO          355    .text               mc_w.l(memcpya.o)
+    0x0800185c   0x00000024   Code   RO          373    .text               mc_w.l(init.o)
+    0x08001880   0x0000000e   Code   RO          377    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800188e   0x00000002   Code   RO          378    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08001890   0x0000000e   Code   RO          379    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x0800189e   0x00000002   PAD
-    0x080018a0   0x00000020   Data   RO          433    Region$$Table       anon$$obj.o
+    0x080018a0   0x00000020   Data   RO          375    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Base: 0x20000000, Size: 0x0000002c, Max: 0xffffffff, ABSOLUTE)
@@ -483,7 +472,7 @@ Memory Map of the image
     0x20000004   0x00000011   Data   RW          129    .data               ammeter_cmd.o
     0x20000015   0x00000002   Data   RW          153    .data               rfcomm.o
     0x20000017   0x00000001   Data   RW          176    .data               cpeschipdef.o
-    0x20000018   0x00000014   Data   RW          270    .data               stm32f10x_rcc.o
+    0x20000018   0x00000014   Data   RW          258    .data               stm32f10x_rcc.o
 
 
     Execution Region ER_ZI (Base: 0x2000002c, Size: 0x00000474, Max: 0xffffffff, ABSOLUTE)

@@ -35,9 +35,53 @@
 #define GPIO_Remap_DataSrcPort    GPIO_Remap_USART2
 
 /****************节点外设参数定义************/
-#define NODE_NUM									1  //每个节点号均独立，sink节点号为0
-#define	AMMETER_ADDR              {0x04, 0x00, 0x00, 0x00, 0x00, 0x00}//{0x70, 0x04, 0x43, 0x11, 0x12, 0x00}
-#define AMMETER_NUM								1
+#ifdef NODE1
+	#define NODE_NUM									1  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x04, 0x00, 0x00, 0x00, 0x00, 0x00}
+	#define AMMETER_NUM								1
+#endif
+	
+#ifdef NODE2
+	#define NODE_NUM									2  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x03, 0x00, 0x00, 0x00, 0x00, 0x00}
+	#define AMMETER_NUM								2
+#endif
+	
+#ifdef NODE3
+	#define NODE_NUM									3  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x01, 0x00, 0x00, 0x00, 0x00, 0x00}
+	#define AMMETER_NUM								3
+#endif
+	
+#ifdef NODE4
+	#define NODE_NUM									4  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x02, 0x00, 0x00, 0x00, 0x00, 0x00}
+	#define AMMETER_NUM								4
+#endif
+	
+#ifdef NODE5
+	#define NODE_NUM									5  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x70, 0x04, 0x43, 0x11, 0x12, 0x00}
+	#define AMMETER_NUM								5
+#endif
+
+#ifdef NODE6
+	#define NODE_NUM									6  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x69, 0x04, 0x43, 0x11, 0x12, 0x00}
+	#define AMMETER_NUM								6
+#endif
+	
+#ifdef NODE7
+	#define NODE_NUM									7  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x71, 0x04, 0x43, 0x11, 0x12, 0x00}
+	#define AMMETER_NUM								7
+#endif
+	
+#ifdef NODE8
+	#define NODE_NUM									8  //每个节点号均独立，sink节点号为0
+	#define	AMMETER_ADDR              {0x68, 0x04, 0x43, 0x11, 0x12, 0x00}
+	#define AMMETER_NUM								8
+#endif
 
 /**************系统操作********************/
 #define LED1_ON                   GPIO_SetBits(GPIOA, LED1_PIN) //LED Test1 点亮
@@ -52,7 +96,8 @@
 void RCC_Configuration(void);
 void GPIO_Configuration(void);
 void NVIC_Configuration(void);
-
+void RTC_Configuration(void);
+	
 void getNodeInfo(void);
 
 void Delay(vu32 nCount);

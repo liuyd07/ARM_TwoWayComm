@@ -59,6 +59,22 @@ AMTReadCmd generateCmd(AMT_Addr addr, AMTCmdType cmdType)
 			idCode.code = READ_POWER_CODE;break;
 		case READ_POWER_FACTOR:
 			idCode.code = READ_POWER_FACTOR_CODE;break;
+		case READ_HARMONIC_01:
+			idCode.code = READ_HARMONIC_01_CODE;break;
+		case READ_HARMONIC_03:
+			idCode.code = READ_HARMONIC_03_CODE;break;
+		case READ_HARMONIC_05:
+			idCode.code = READ_HARMONIC_05_CODE;break;
+		case READ_HARMONIC_07:
+			idCode.code = READ_HARMONIC_07_CODE;break;
+		case READ_HARMONIC_09:
+			idCode.code = READ_HARMONIC_09_CODE;break;
+		case READ_HARMONIC_11:
+			idCode.code = READ_HARMONIC_11_CODE;break;
+		case READ_HARMONIC_13:
+			idCode.code = READ_HARMONIC_13_CODE;break;
+		case READ_HARMONIC_15:
+			idCode.code = READ_HARMONIC_15_CODE;break;
 		default: break;
 	}
 	

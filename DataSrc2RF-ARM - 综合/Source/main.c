@@ -83,11 +83,47 @@ int main()
 
 void initBoard(void)
 {
-	RCC_Configuration();
+		RCC_Configuration();
 
-	NVIC_Configuration();
+		NVIC_Configuration();
 
-	GPIO_Configuration();
+		GPIO_Configuration();
+	//我们在BKP的后备寄存器1中，存了一个特殊字符0xA5A5
+    //第一次上电或后备电源掉电后，该寄存器数据丢失，
+    //表明RTC数据丢失，需要重新配置
+    if (BKP_ReadBackupRegister(BKP_DR1) != 0xA5A5)
+    {
+        //重新配置RTC
+        RTC_Configuration();
+        //配置完成后，向后备寄存器中写特殊字符0xA5A5
+        BKP_WriteBackupRegister(BKP_DR1, 0xA5A5);
+    }
+    else
+    {
+//若后备寄存器没有掉电，则无需重新配置RTC
+        //这里我们可以利用RCC_GetFlagStatus()函数查看本次复位类型
+        if (RCC_GetFlagStatus(RCC_FLAG_PORRST) != RESET)
+        {
+            //这是上电复位
+        }
+        else if (RCC_GetFlagStatus(RCC_FLAG_PINRST) != RESET)
+        {
+            //这是外部RST管脚复位
+        }
+        //清除RCC中复位标志
+        RCC_ClearFlag();
+
+        //虽然RTC模块不需要重新配置，且掉电后依靠后备电池依然运行
+        //但是每次上电后，还是要使能RTCCLK???????
+        //RCC_RTCCLKCmd(ENABLE);
+        //等待RTC时钟与APB1时钟同步
+        //RTC_WaitForSynchro();
+
+        //使能秒中断
+        RTC_ITConfig(RTC_IT_SEC, ENABLE);
+        //等待操作完成
+        RTC_WaitForLastTask();
+    }
 }
 
 void copyBuffer(u8 src[], u8* srcLength, u8 dst[], u8* dstLength)
