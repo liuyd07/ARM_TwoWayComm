@@ -25,6 +25,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
+#include "dataAcquisitionTask.h"
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
@@ -44,6 +45,7 @@ void USART1_IRQHandler(void);
 void USART2_IRQHandler(void);
 void USART3_IRQHandler(void);
 void RTC_IRQHandler(void);
+void RTCAlarm_IRQHandler(void);
 
 #endif /* __STM32F10x_IT_H */
 

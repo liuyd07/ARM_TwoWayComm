@@ -442,6 +442,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -487,6 +492,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -524,6 +534,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -965,6 +985,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1010,6 +1035,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1047,6 +1077,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1488,6 +1528,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1533,6 +1578,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1570,6 +1620,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2011,6 +2071,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2056,6 +2121,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2093,6 +2163,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -2534,6 +2614,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2579,6 +2664,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2616,6 +2706,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3057,6 +3157,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3102,6 +3207,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3139,6 +3249,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3580,6 +3700,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3625,6 +3750,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3662,6 +3792,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -4103,6 +4243,11 @@
               <FileType>1</FileType>
               <FilePath>.\Source\stm32f10x_it.c</FilePath>
             </File>
+            <File>
+              <FileName>dataAcquisitionTask.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4148,6 +4293,11 @@
               <FileType>1</FileType>
               <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f10x_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4185,6 +4335,16 @@
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\stm32f10x_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>dataAcquisitionTask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\dataAcquisitionTask.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_exti.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ARMLib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -24,6 +24,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
 #include "CPESchipdef.h"
+#include "dataAcquisitionTask.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Examples
   * @{
@@ -233,17 +234,56 @@ void RTC_IRQHandler(void)
   {
     /* Clear the RTC Second interrupt */
     RTC_ClearITPendingBit(RTC_IT_SEC);
-		
-//    /* Toggle LED1 */
-//    STM_EVAL_LEDToggle(LED1);
-			LED1_OFF;Delay(0x5ff);LED1_ON;
-//    /* Enable time update */
-//    TimeDisplay = 1;
-
+		//RTC_SetAlarm(RTC_GetCounter()+ 3);
+    /* Toggle LED1 */
+		LED1_OFF;Delay(0x5ff);LED1_ON;
+		/* 采集数据 */
+		//dataAcquistTask();
     /* Wait until last write operation on RTC registers has finished */
-    RTC_WaitForLastTask();
-    
+    RTC_WaitForLastTask();  
   }
+	
+	if(RTC_GetITStatus(RTC_IT_ALR) != RESET)
+  {
+    RTC_ClearITPendingBit(RTC_IT_ALR);     //
+		/* Toggle LED1 */
+		LED1_OFF;Delay(0x5ff);LED1_ON;
+  /*Wait until last write operation on RTC registers has finished */
+    RTC_WaitForLastTask();
+  }
+	/* Reset RTC Counter when Time is 23:59:59 */
+	if(RTC_GetCounter() == 0x00015180)     //15180??24??????
+	{
+		RTC_SetCounter(0x0);
+		/* Wait until last write operation on RTC registers has finished */
+		RTC_WaitForLastTask();
+	}
+}
+
+void RTCAlarm_IRQHandler(void)
+{
+	 if(RTC_GetITStatus(RTC_IT_ALR)!=RESET)
+   {
+			EXTI_ClearITPendingBit(EXTI_Line17); 
+		 /* Toggle LED1 */
+		LED1_OFF;Delay(0x5ff);LED1_ON;
+			if(PWR_GetFlagStatus(PWR_FLAG_WU)!=RESET) 
+			{
+				PWR_ClearFlag(PWR_FLAG_WU);
+			}
+			/*???????????*/
+			RTC_WaitForLastTask();
+			/*??RTC????*/
+			EXTI_ClearITPendingBit(RTC_IT_ALR);
+			RTC_WaitForLastTask();
+   }
+    /* Reset RTC Counter when Time is 23:59:59 */
+    if(RTC_GetCounter() == 0x00015180)     //15180??24??????
+    {
+      RTC_SetCounter(0x0);
+      /* Wait until last write operation on RTC registers has finished */
+      RTC_WaitForLastTask();
+    }
 }
 
 
