@@ -2,7 +2,7 @@
 
 #include "dataAcquisitionTask.h"
 
-extern u8 SerialBuffer[50];
+extern u8 SerialBuffer[SERIAL_BUFFER_SIZE];;
 extern u8 SerialDataLength;
 extern u8 RFBuffer[50];
 extern u8 RFDataLength;
@@ -13,6 +13,10 @@ void dataAcquistTask(void)
 {
 	u8 idx = 0;
 	AMTCmdType cmdType = READ_CURRENT;
+	
+	//数据源串口初始化
+	USART_Configuration(DataSrcPort);
+	USART_Configuration(RFPort);
 	
 	for(idx = 0;idx < NUM_OF_PARAS;idx++)
 	{

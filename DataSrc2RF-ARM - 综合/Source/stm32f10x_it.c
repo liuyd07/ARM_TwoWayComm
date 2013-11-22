@@ -23,8 +23,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-#include "CPESchipdef.h"
-#include "dataAcquisitionTask.h"
 
 /** @addtogroup STM32F10x_StdPeriph_Examples
   * @{
@@ -38,19 +36,7 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-extern uint8_t TxBuffer1[]; 
-extern uint8_t TxBuffer2[]; 
-extern uint8_t RxBuffer1[];
-extern uint8_t RxBuffer2[];
-extern __IO uint8_t TxCounter1;
-extern __IO uint8_t TxCounter2;
-extern __IO uint8_t RxCounter1; 
-extern __IO uint8_t RxCounter2;
-extern uint8_t NbrOfDataToTransfer1;
-extern uint8_t NbrOfDataToTransfer2;
-extern uint8_t NbrOfDataToRead1;
-extern uint8_t NbrOfDataToRead2;
-
+extern BOOL DATA_ACQUISITION_TASK_FLAG;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -230,26 +216,60 @@ void SysTick_Handler(void)
   */
 void RTC_IRQHandler(void)
 {
-  if (RTC_GetITStatus(RTC_IT_SEC) != RESET)
-  {
-    /* Clear the RTC Second interrupt */
-    RTC_ClearITPendingBit(RTC_IT_SEC);
-		//RTC_SetAlarm(RTC_GetCounter()+ 3);
-    /* Toggle LED1 */
-		LED1_OFF;Delay(0x5ff);LED1_ON;
-		/* 采集数据 */
-		//dataAcquistTask();
-    /* Wait until last write operation on RTC registers has finished */
-    RTC_WaitForLastTask();  
-  }
-	
+//  if (RTC_GetITStatus(RTC_IT_SEC) != RESET)
+//  {
+//    /* Clear the RTC Second interrupt */
+//    RTC_ClearITPendingBit(RTC_IT_SEC);
+//		//RTC_SetAlarm(RTC_GetCounter()+ 3);
+//    /* Toggle LED1 */
+//		LED1_OFF;Delay(0x5ff);LED1_ON;
+//		/* 采集数据 */
+//		//dataAcquistTask();
+//    /* Wait until last write operation on RTC registers has finished */
+//    RTC_WaitForLastTask();  
+//  }
+//	
+//	if(RTC_GetITStatus(RTC_IT_ALR) != RESET)
+//  {
+//    RTC_ClearITPendingBit(RTC_IT_ALR);     //
+//		/* Toggle LED1 */
+//		LED1_OFF;Delay(0x5ff);LED1_ON;
+//  /*Wait until last write operation on RTC registers has finished */
+//    RTC_WaitForLastTask();
+//  }
+//	/* Reset RTC Counter when Time is 23:59:59 */
+//	if(RTC_GetCounter() == 0x00015180)     //15180??24??????
+//	{
+//		RTC_SetCounter(0x0);
+//		/* Wait until last write operation on RTC registers has finished */
+//		RTC_WaitForLastTask();
+//	}
+}
+
+void RTCAlarm_IRQHandler(void)
+{
 	if(RTC_GetITStatus(RTC_IT_ALR) != RESET)
   {
-    RTC_ClearITPendingBit(RTC_IT_ALR);     //
-		/* Toggle LED1 */
-		LED1_OFF;Delay(0x5ff);LED1_ON;
-  /*Wait until last write operation on RTC registers has finished */
+    /* Clear EXTI line17 pending bit */
+    EXTI_ClearITPendingBit(EXTI_Line17);
+
+    /* Check if the Wake-Up flag is set */
+    if(PWR_GetFlagStatus(PWR_FLAG_WU) != RESET)
+    {
+      /* Clear Wake Up flag */
+      PWR_ClearFlag(PWR_FLAG_WU);
+    }
+    /* Wait until last write operation on RTC registers has finished */
+    RTC_WaitForLastTask();   
+    /* Clear RTC Alarm interrupt pending bit */
+    RTC_ClearITPendingBit(RTC_IT_ALR);
+    /* Wait until last write operation on RTC registers has finished */
     RTC_WaitForLastTask();
+		/* Toggle LED2 */
+    LED2_ON;//Delay(0xff);
+		/* Enable data acquisition */
+		DATA_ACQUISITION_TASK_FLAG = 1;
+		LED2_OFF;
   }
 	/* Reset RTC Counter when Time is 23:59:59 */
 	if(RTC_GetCounter() == 0x00015180)     //15180??24??????
@@ -258,32 +278,6 @@ void RTC_IRQHandler(void)
 		/* Wait until last write operation on RTC registers has finished */
 		RTC_WaitForLastTask();
 	}
-}
-
-void RTCAlarm_IRQHandler(void)
-{
-	 if(RTC_GetITStatus(RTC_IT_ALR)!=RESET)
-   {
-			EXTI_ClearITPendingBit(EXTI_Line17); 
-		 /* Toggle LED1 */
-		LED1_OFF;Delay(0x5ff);LED1_ON;
-			if(PWR_GetFlagStatus(PWR_FLAG_WU)!=RESET) 
-			{
-				PWR_ClearFlag(PWR_FLAG_WU);
-			}
-			/*???????????*/
-			RTC_WaitForLastTask();
-			/*??RTC????*/
-			EXTI_ClearITPendingBit(RTC_IT_ALR);
-			RTC_WaitForLastTask();
-   }
-    /* Reset RTC Counter when Time is 23:59:59 */
-    if(RTC_GetCounter() == 0x00015180)     //15180??24??????
-    {
-      RTC_SetCounter(0x0);
-      /* Wait until last write operation on RTC registers has finished */
-      RTC_WaitForLastTask();
-    }
 }
 
 

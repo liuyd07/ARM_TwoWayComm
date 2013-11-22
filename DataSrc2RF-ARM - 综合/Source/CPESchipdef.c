@@ -2,7 +2,6 @@
 #include "CPESchipdef.h"
 
 
-ErrorStatus HSEStartUpStatus;//时钟设置状态位
 
 /*******************************************************************************
 * Function Name  : RCC_Configuration
@@ -13,6 +12,8 @@ ErrorStatus HSEStartUpStatus;//时钟设置状态位
 *******************************************************************************/
 void RCC_Configuration(void)
 {
+  ErrorStatus HSEStartUpStatus;//时钟设置状态位
+
   /* RCC system reset(for debug purpose) */
   RCC_DeInit();
 
@@ -120,8 +121,6 @@ void GPIO_Configuration(void)
 *******************************************************************************/
 void NVIC_Configuration(void)
 {  
-	NVIC_InitTypeDef NVIC_InitStructure;
-	
 #ifdef  VECT_TAB_RAM  
   // Set the Vector Table base location at 0x20000000  
   NVIC_SetVectorTable(NVIC_VectTab_RAM, 0x0); 
@@ -132,100 +131,7 @@ void NVIC_Configuration(void)
   
 	/* Configure one bit for preemption priority */
   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
-	
-	/* Enable the RTC Interrupt */
-  NVIC_InitStructure.NVIC_IRQChannel = RTC_IRQn;
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);
-	
-	NVIC_InitStructure.NVIC_IRQChannel = RTCAlarm_IRQn;
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);  
-}
 
-void EXTI_Configuration(void)
-{
-	EXTI_InitTypeDef EXTI_InitStructure;
-  //GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource5);
-//  /* Configure Key Button EXTI Line to generate an interrupt on falling edge */  
-//  EXTI_InitStructure.EXTI_Line = EXTI_Line5;
-//  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-//  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-//  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
-//  EXTI_Init(&EXTI_InitStructure);
-
-  /*配置EXTI_Line17(RTC_Alarm)为上升沿触发*/
-  EXTI_ClearITPendingBit(EXTI_Line17);
-  EXTI_InitStructure.EXTI_Line = EXTI_Line17 ;
-  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising;
-  EXTI_Init(&EXTI_InitStructure);
-}
-
-/**
-  * @brief  Configures the RTC.
-  * @param  None
-  * @retval None
-  */
-void RTC_Configuration(void)
-{
-	
-	
-  /* Enable PWR and BKP clocks */
-  RCC_APB1PeriphClockCmd(RCC_APB1Periph_PWR | RCC_APB1Periph_BKP, ENABLE);
-	
-	/* Enable WKUP pin */
-  //PWR_WakeUpPinCmd(ENABLE);
-	
-  /* Allow access to BKP Domain */
-  PWR_BackupAccessCmd(ENABLE);
-
-  /* Reset Backup Domain */
-  BKP_DeInit();
-
-//  /* Enable the LSE OSC 部时钟*/
-//  RCC_LSEConfig(RCC_LSE_ON);
-//  
-//  /* Wait till LSE is ready */
-//  while (RCC_GetFlagStatus(RCC_FLAG_LSERDY) == RESET)
-//  {} //居然等了1分钟才起振成功，哪里有问题。貌似LSE对应的外部晶振应该是32.768kHz，8MHz对应的应该是HSE。HSE已经在RCC_Configure里初始化过了。
-
-  /* Select HSE_Div128 as RTC Clock Source */
-  RCC_RTCCLKConfig(RCC_RTCCLKSource_HSE_Div128); //外部晶振为8MHz
-
-  /* Enable RTC Clock */
-  RCC_RTCCLKCmd(ENABLE);
-
-  /* Wait for RTC registers synchronization */
-  RTC_WaitForSynchro();
-
-  /* Wait until last write operation on RTC registers has finished */
-  RTC_WaitForLastTask();
-
-  /* Enable the RTC Second */
-  RTC_ITConfig(RTC_IT_SEC, ENABLE);
-
-  /* Wait until last write operation on RTC registers has finished */
-  RTC_WaitForLastTask();
-
-  /* Set RTC prescaler: set RTC period to 1sec */
-  RTC_SetPrescaler(62499); /* RTC period = RTCCLK/RTC_PR = (62.500 KHz)/(62499+1) */
-	
-	/* Enable the RTC Alarm */ 
-	RTC_ITConfig(RTC_IT_ALR, ENABLE);	
-	
-	/* Wait until last write operation on RTC registers has finished */
-  RTC_WaitForLastTask();
-	
-	RTC_SetAlarm(RTC_GetCounter()+ 5); //设置闹钟时间5s后 
-	
-  /* Wait until last write operation on RTC registers has finished */
-  RTC_WaitForLastTask();
-	
-	
 }
 
 void getNodeInfo(void)

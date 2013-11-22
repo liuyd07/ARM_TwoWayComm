@@ -62,16 +62,18 @@ void USART_Configuration(USART_TypeDef* USARTx)
 void USART_Recv(void)
 {
 	u8 SerialBufferIdx = 0;
+	u32 cnt = 0;
 	
 	SERIAL485_RX_ENABLE;
 	
 	USART_ReceiveData(DataSrcPort);
 	while((SerialBufferIdx < SERIAL_BUFFER_SIZE) && (SerialBuffer[SerialBufferIdx-1] != SERIAL_END_CODE))
 	{
-		while(USART_GetFlagStatus(DataSrcPort, USART_FLAG_RXNE) == RESET )
+		while((USART_GetFlagStatus(DataSrcPort, USART_FLAG_RXNE) == RESET))
 		{
-			// 不要等待太长，需要设置等待响应时间
+			//cnt++;// 不要等待太长，需要设置等待响应时间
 		}
+		//cnt = 0;
 		SerialBuffer[SerialBufferIdx++] = USART_ReceiveData(DataSrcPort);
 	}
 	SerialDataLength = SerialBufferIdx;

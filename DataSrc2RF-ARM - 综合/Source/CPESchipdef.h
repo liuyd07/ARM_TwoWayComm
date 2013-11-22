@@ -96,7 +96,6 @@
 void RCC_Configuration(void);
 void GPIO_Configuration(void);
 void NVIC_Configuration(void);
-void EXTI_Configuration(void);
 void RTC_Configuration(void);
 	
 void getNodeInfo(void);

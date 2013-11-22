@@ -1,6 +1,42 @@
 //本程序通过USART2串口向外发送数据
 
 #include "dataAcquisitionTask.h"
+#include "StopMode_RTC_Alarm.h"
+
+#define STOP_PERIOD_SEC     30
+#ifdef NODE1
+	#define START_DELAY       0
+#endif
+
+#ifdef NODE2
+	#define START_DELAY       0x12C0  //3s
+#endif
+
+#ifdef NODE3
+	#define START_DELAY       0x2580  //6s
+#endif
+
+#ifdef NODE4
+	#define START_DELAY       0x383F  //9s
+#endif
+
+#ifdef NODE5
+	#define START_DELAY       0x4B00  //12s
+#endif
+
+#ifdef NODE6
+	#define START_DELAY       0x5DC0  //15s
+#endif
+
+#ifdef NODE7
+	#define START_DELAY       0x707F  //18s
+#endif
+
+#ifdef NODE8
+	#define START_DELAY       0x8340  //21s
+#endif
+
+BOOL DATA_ACQUISITION_TASK_FLAG = 0;
 
 void initBoard(void);
 
@@ -14,26 +50,50 @@ int main()
 
 	initBoard();
 	
-	//数据源串口初始化
-	USART_Configuration(DataSrcPort);
-	USART_Configuration(RFPort);
+//	//数据源串口初始化
+//	USART_Configuration(DataSrcPort);
+//	USART_Configuration(RFPort);
 	
 	//波特率设置成功标志指示灯
 	LED1_ON;
-	LED2_ON;
 	
-	//指令发送与电能数据接收
-	while(1)
-	{
-		RTC_ClearFlag(RTC_FLAG_SEC);
-		while(RTC_GetFlagStatus(RTC_FLAG_SEC)==RESET);
-		Delay(0x5ff);
-		RTC_SetAlarm(RTC_GetCounter()+ 5); //设置闹钟时间5s后 
-		RTC_WaitForLastTask();
-		//PWR_EnterSTANDBYMode();
-		PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
-		//initBoard();
-	}
+	/* Insert delay */
+	Delay( START_DELAY );
+	
+  while (1)
+  {
+    /* Wait till RTC Second event occurs */
+    RTC_ClearFlag(RTC_FLAG_SEC);
+    while(RTC_GetFlagStatus(RTC_FLAG_SEC) == RESET);
+
+    /* Alarm in 20 second */
+    RTC_SetAlarm(RTC_GetCounter()+ STOP_PERIOD_SEC);
+    /* Wait until last write operation on RTC registers has finished */
+    RTC_WaitForLastTask();
+
+    /* Turn off LED1 */
+    LED1_OFF;
+
+    /* Request to enter STOP mode with regulator in low power mode*/
+    PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
+    
+    /* At this stage the system has resumed from STOP mode -------------------*/
+    /* Turn on LED1 */
+    LED1_ON;
+
+    /* Configures system clock after wake-up from STOP: enable HSE, PLL and select 
+       PLL as system clock source (HSE and PLL are disabled in STOP mode) */
+    SYSCLKConfig_STOP();
+		
+		/* 数据传输 */
+		if (DATA_ACQUISITION_TASK_FLAG)
+		{
+			dataAcquistTask();
+			DATA_ACQUISITION_TASK_FLAG = 0;
+		}
+		
+		/*other tasks*/
+  }
 	
 }
 
@@ -43,47 +103,20 @@ void initBoard(void)
 
 		NVIC_Configuration();
 	
+		/* Configure EXTI Line to generate an interrupt on falling edge */
 		EXTI_Configuration();
 
-		GPIO_Configuration();
-	
+		/* Configure RTC clock source and prescaler */
 		RTC_Configuration();
-//	//我们在BKP的后备寄存器1中，存了一个特殊字符0xA5A5
-//    //第一次上电或后备电源掉电后，该寄存器数据丢失，
-//    //表明RTC数据丢失，需要重新配置
-//    if (BKP_ReadBackupRegister(BKP_DR1) != 0xA5A5)
-//    {
-//        //重新配置RTC
-//        RTC_Configuration();
-//        //配置完成后，向后备寄存器中写特殊字符0xA5A5
-//        BKP_WriteBackupRegister(BKP_DR1, 0xA5A5);
-//    }
-//    else
-//    {
-////若后备寄存器没有掉电，则无需重新配置RTC
-//        //这里我们可以利用RCC_GetFlagStatus()函数查看本次复位类型
-//        if (RCC_GetFlagStatus(RCC_FLAG_PORRST) != RESET)
-//        {
-//            //这是上电复位
-//        }
-//        else if (RCC_GetFlagStatus(RCC_FLAG_PINRST) != RESET)
-//        {
-//            //这是外部RST管脚复位
-//        }
-//        //清除RCC中复位标志
-//        RCC_ClearFlag();
 
-//        //虽然RTC模块不需要重新配置，且掉电后依靠后备电池依然运行
-//        //但是每次上电后，还是要使能RTCCLK???????
-//        //RCC_RTCCLKCmd(ENABLE);
-//        //等待RTC时钟与APB1时钟同步
-//        //RTC_WaitForSynchro();
+		GPIO_Configuration();
 
-//        //使能秒中断
-//        RTC_ITConfig(RTC_IT_ALR, ENABLE);
-//        //等待操作完成
-//        RTC_WaitForLastTask();
-//    }
+		/* NVIC configuration */
+		RTC_NVIC_Configuration();
+
+		/* Configure the SysTick to generate an interrupt each 1 millisecond */
+		SysTick_Configuration();
+
 }
 
 #ifdef  DEBUG
@@ -107,7 +140,6 @@ void assert_failed(u8* file, u32 line)
 }
 #endif
 
-void SystemInit(){}
 
 
 

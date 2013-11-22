@@ -25,7 +25,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
-#include "dataAcquisitionTask.h"
+#include "CPESchipdef.h"
+#include "userTaskList.h"
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/

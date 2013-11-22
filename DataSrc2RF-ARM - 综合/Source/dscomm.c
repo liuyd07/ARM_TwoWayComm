@@ -1,6 +1,6 @@
 #include "dscomm.h"
 
-extern u8 SerialBuffer[50];
+extern u8 SerialBuffer[SERIAL_BUFFER_SIZE];
 extern u8 SerialDataLength;
 
 
@@ -69,7 +69,6 @@ void DS_getAMTPara(AMTCmdType cmdType)
 	DS_SendCmd();
 	Delay(0xff);
 	DS_RecvData();
-	Delay(0xfff);
 }
 
 /****************************************************************
